@@ -1,0 +1,2 @@
+--local-networks "192.168.22.0/24"  ## give your local IP Ranges here.
+--interface 1
