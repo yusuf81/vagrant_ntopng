@@ -12,9 +12,6 @@ vagrant_config = configs['configs']
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.ssh.username= "vagrant"
-  config.ssh.password= "vagrant"
-
   config.vm.box = vagrant_config['box']
   #config.vm.box_url = vagrant_config['box_url']
   
