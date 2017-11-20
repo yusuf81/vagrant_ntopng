@@ -40,3 +40,7 @@ Default user/password: nbox/nbox.
 ###Shared directory
 
 After the vagrant up, you will find the ``trunk`` directory inside the cloned directory. This direcotory contains the ntopng source code.
+
+Changes:
+Using bento/xenial64
+add DEBIAN_FRONTEND=noninteractive on env
